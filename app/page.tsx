@@ -1,4 +1,4 @@
-import Banner from '@/components/Banner';
+import Banner from '@/components/banner';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {
