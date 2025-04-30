@@ -16,7 +16,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="bg-red-600 text-white shadow-md">
+        <nav className="text-white shadow-md" style={{ backgroundColor: '#be1e2d' }}>
         <div className="max-w-7xl mx-auto px-4">
           <ul className="grid grid-cols-11 h-16 items-center text-center">
             {sections.map((section, index) => (
