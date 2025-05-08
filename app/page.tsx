@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <>
-    Actually this is home
+    Actually this is the home page.
     </>
   );
 }
