@@ -85,6 +85,27 @@ export default function Donate() {
                 </div>
             </section>
 
+            <section className="flex flex-col md:flex-row gap-8 mb-6">
+                <div className="flex-1">
+                    <h1 className="text-2xl font-semibold text-gray-800 mb-4">
+                        Our Wish Lists
+                    </h1>
+                    <ul className="list-disc list-inside mb-4">
+                        <Link href="https://www.amazon.com/gp/registry/wishlist/3U4JTUO35FV4/ref=nav_wishlist_lists_1"
+                        className="font-bold text-lyff-red hover:text-black transition-colors duration-200">
+                            <li>LYFF Foster & Adoption Program Amazon Wishlist</li>
+                        </Link>
+                        <Link href="https://www.amazon.com/gp/registry/wishlist/3JOXLVT9ZIR88"
+                        className="font-bold text-lyff-red hover:text-black transition-colors duration-200">
+                            <li>Barn Program Amazon Wishlist</li>
+                        </Link>
+                    </ul>
+                    <p>
+                        Thank you to everyone who contributes to our cause! All donations go directly to helping felines in need.
+                    </p>
+                </div>
+            </section>
+
         </main>
     )
 }
