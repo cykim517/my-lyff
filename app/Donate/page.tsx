@@ -45,6 +45,33 @@ export default function Donate() {
                 </div>
             </section>
 
+            <div className="flex flex-col md:flex-row items-start gap-4">
+                <div className="w-auto">
+                    <Image
+                        src="/paypal-qrcode.png"
+                        alt="PayPal QR Code"
+                        width={300}
+                        height={300}
+                    />
+                </div>
+                <div className="w-auto">
+                    <Image
+                        src="/zelle-qrcode.jpg"
+                        alt="Zelle QR Code"
+                        width={300}
+                        height={300}
+                    />
+                </div>
+                <div className="w-auto">
+                    <Image
+                        src="/venmo-qrcode.jpg"
+                        alt="Venmo QR Code"
+                        width={300}
+                        height={300}
+                    />
+                </div>
+            </div>
+
             <section className="mb-6">
                 <h5 className="text-2xl font-semibold text-gray-800 mb-4">
                     Other Ways to Support LYFF
