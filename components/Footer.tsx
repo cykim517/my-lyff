@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
@@ -14,11 +14,15 @@ const Footer: React.FC = () => {
               <span className="font-semibold">Main Phone:</span> (760) 542-8509
             </li>
             <li>
-              <span className="font-semibold">Foster and Adoption Program Phone:</span>{" "}
+              <span className="font-semibold">
+                Foster and Adoption Program Phone:
+              </span>{" "}
               (760) 689-2216
             </li>
             <li>
-              <span className="font-semibold">Love your Fixed Felines Phone:</span>{" "}
+              <span className="font-semibold">
+                Love your Fixed Felines Phone:
+              </span>{" "}
               (442) 777-2065
             </li>
           </ul>
@@ -78,26 +82,25 @@ const Footer: React.FC = () => {
               </a>
             </div>
             <div className="w-auto mt-6">
-            <Image
-              src="/greatnonprofits.png"
-              alt="Great Non Profits logo"
-              width={150}
-              height={150}
-            />
+              <Image
+                src="/greatnonprofits.png"
+                alt="Great Non Profits logo"
+                width={150}
+                height={150}
+              />
             </div>
-            </div>
+          </div>
 
-            <div className="flex items-center">
+          <div className="flex items-center">
             <p className="text-white text-base leading-relaxed mt-25">
-            LYFF is a qualified
-            <br />
-            501(C)(3) organization
-            <br />
+              LYFF is a qualified
+              <br />
+              501(C)(3) organization
             </p>
-            </div>
-            </div>
-            </div>
-            </footer>
-            );
-            };
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
 export default Footer;
