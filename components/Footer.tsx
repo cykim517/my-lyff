@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="text-2xl font-semibold mb-2">Help LYFF</h4>
           <Link
-            href="http://localhost:3001/Donate"
+            href="http://localhost:3000/Donate"
             target="_blank"
             rel="noopener noreferrer"
           >
